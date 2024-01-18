@@ -1,0 +1,68 @@
+body {
+
+    background: linear-gradient(to top, hsla(0, 0%, 75%, .4) 63%, white 20%);
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+/* -------------------------------------------------------------------------- */
+/*                                    FONT                                    */
+/* -------------------------------------------------------------------------- */
+
+.font-title-big {
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-size: 60px;
+}
+
+.font-md {
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-size: 30px;
+}
+
+.font-sm {
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-size: 35px;
+    color: white;
+}
+
+.font-xs {
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-size: 25px;
+    color: white;
+}
+
+.font-p-gray {
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    color: hsl(0, 0%, 75%);
+}
+
+.font-p-white {
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    color: white;
+}
+
+/* -----------------------------------END------------------------------------ */
+
+@media only screen and (max-width: 992px) {
+
+    .font-sm {
+        font-family: "Poppins", sans-serif;
+        font-weight: 700;
+        font-size: 27px;
+        color: white;
+    }
+
+
+
+}
