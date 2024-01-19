@@ -1,11 +1,19 @@
 body {
 
-    background: linear-gradient(to top, hsla(0, 0%, 75%, .4) 63%, white 20%);
+    background: linear-gradient(to top, hsla(0, 0%, 75%, .4) 70.5%, white 20%);
 }
 
 ul {
     list-style: none;
     padding: 0;
+}
+
+.clr-blk {
+    color: rgb(20, 19, 19);
+}
+
+.clr-blu {
+    color: hsl(180, 66%, 49%);
 }
 
 /* -------------------------------------------------------------------------- */
@@ -18,6 +26,12 @@ ul {
     font-size: 60px;
 }
 
+.font-lg{
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-size: 50px;
+}
+
 .font-md {
     font-family: "Poppins", sans-serif;
     font-weight: 700;
@@ -28,14 +42,23 @@ ul {
     font-family: "Poppins", sans-serif;
     font-weight: 700;
     font-size: 35px;
-    color: white;
+
 }
+
 
 .font-xs {
     font-family: "Poppins", sans-serif;
     font-weight: 700;
-    font-size: 25px;
-    color: white;
+    font-size: 20px;
+
+}
+
+/*folosit in link area  */
+.font {
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+
 }
 
 .font-p-gray {
@@ -43,6 +66,21 @@ ul {
     font-weight: 500;
     font-size: 18px;
     color: hsl(0, 0%, 75%);
+    
+}
+
+.font-p-gray-banner{
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-size: 19px;
+    color: hsl(0, 0%, 75%);
+}
+
+.font-p {
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    
 }
 
 .font-p-white {
@@ -56,13 +94,31 @@ ul {
 
 @media only screen and (max-width: 992px) {
 
+    body {
+
+        background: linear-gradient(to top, hsla(0, 0%, 75%, .4) 76.5%, white 20%);
+    }
+
+
     .font-sm {
         font-family: "Poppins", sans-serif;
         font-weight: 700;
         font-size: 27px;
-        color: white;
+
+    }
+
+    .font-md {
+        font-size: 33x;
     }
 
 
+
+}
+
+@media only screen and (max-width: 330px) {
+
+    .font{
+        font-size: 12px;
+    }
 
 }
