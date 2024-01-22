@@ -8,7 +8,6 @@ const ConnectButton = (props) => {
             width: props.width,
             height: props.height,
             borderRadius: props.radius,
-            fontWeight: '700',
             fontSize: '18px',
             border: 'none',
             color: props.colorL,

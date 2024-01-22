@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "deploy": "gh-pages -d vite-project/dist",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -18,6 +19,7 @@
   },
   "homepage": "https://github.com/CostelMartin08/url-shortening-api#readme",
   "devDependencies": {
-    "create-vite": "^5.1.0"
+    "create-vite": "^5.1.0",
+    "gh-pages": "^6.1.1"
   }
 }

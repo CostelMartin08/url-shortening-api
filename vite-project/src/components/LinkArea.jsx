@@ -1,7 +1,7 @@
 import React from "react";
-import { BgLink, BgLinkMobile } from '../assets/BgLink'
+import { BgLink, BgLinkMobile } from '../assets/BgLink';
 import LinkButton from "../assets/LinkButton";
-
+import APISet from "./APISet";
 const LinkArea = () => {
 
 
@@ -12,16 +12,9 @@ const LinkArea = () => {
 
                 <div className="input-set">
 
-                    <input placeholder="Shorten a link here..."></input>
+                    <APISet />
 
-                    <div className="d-none d-lg-block">
-                        <LinkButton bg="hsl(180, 66%, 49%)" width="140px" height="50px" radius="5px" colorL="white" text="Shorten It!" />
-                    </div>
-                    <div className="d-lg-none w-100">
-                        <LinkButton bg="hsl(180, 66%, 49%)" width="100%" height="55px" radius="5px" colorL="white" text="Shorten It!" />
-                    </div>
-
-
+                  
                 </div>
 
                 <div className="svg-set d-none d-lg-block">
