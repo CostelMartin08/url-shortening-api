@@ -11,7 +11,6 @@ const ConnectButton = (props) => {
             fontSize: '18px',
             border: 'none',
             color: props.colorL,
-            fontWeight: '700',
             backgroundColor: props.bg,
         }
     }

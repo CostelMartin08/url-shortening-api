@@ -19,7 +19,6 @@ const LinkButton = (props) => {
       fontSize: '18px',
       border: 'none',
       color: 'white',
-      fontWeight: '700',
       backgroundColor: buttonColor,
     }
   };

@@ -10,7 +10,7 @@ const APISet = () => {
 
   async function shortenUrl() {
     try {
-      const response = await fetch('http:/balanandrei.ro/api/shorten-url', {
+      const response = await fetch('https:/balanandrei.ro/api/shorten-url', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
