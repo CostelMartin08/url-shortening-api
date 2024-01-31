@@ -21,7 +21,7 @@ const Statistics = () => {
 
             <div className="card-section row">
 
-                <div className="horizontal-line " />
+                <div className="horizontal-line d-none d-lg-block " />
 
                 <div className="vertical-line d-lg-none"></div>
 

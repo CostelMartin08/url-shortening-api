@@ -1,11 +1,10 @@
 import React, { useState } from "react";
-import LinkButton from "../assets/LinkButton";
+import {LinkButton} from "../assets/LinkButton";
 
 
-const APISet = () => {
+const APISet = ({shortUrl}) => {
 
   const [originalUrl, setOriginalUrl] = useState("");
-  const [cleanedUrl, setCleanedUrl] = useState("");
 
 
   async function shortenUrl() {
@@ -24,7 +23,8 @@ const APISet = () => {
         console.error("Eroare:", data.error);
         throw new Error(data.error);
       }
-      setCleanedUrl(data.shortUrl)
+      shortUrl(data.shortUrl);
+      setOriginalUrl('');
       return data.shortUrl;
     } catch (error) {
       console.error("Eroare în timpul cererii fetch:", error);
@@ -32,7 +32,6 @@ const APISet = () => {
     }
   }
 
-  console.log(cleanedUrl);
 
   return (
 
